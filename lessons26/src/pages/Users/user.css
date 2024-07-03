@@ -1,0 +1,21 @@
+.UserData{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid;
+}
+.UserData button{
+background-color: transparent;
+border: none;
+}
+.UserData p{
+    font-size:20px;
+}
+.UserData img{
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+}
+.User{
+    width:80%;
+    margin: auto;
+}
