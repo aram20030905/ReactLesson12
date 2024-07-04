@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="menu">
+
+            <h1>My playList</h1>
+
+            <nav class="transparent">
+
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+                        <a href="favourite.html">Favourites</a>
+                    <li>
+                        <i class="fa-solid fa-video" style="color: #ffffff;"></i>
+                        <a href="video.html">Videos</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-music" style="color: #ffffff;"></i>
+                        <a href="music.html">Music</a>
+                    </li>
+
+
+                </ul>
+                <div class="inp">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    <input type="text" placeholder="search..." />
+                </div>
+            </nav>
+            <div class="playlist">
+                <ul>
+                    <li class="transparent">
+                        <a href="#">
+                            <img src="./media/img/12.png" height="100px" width="150px">
+                            <h3>My Favourite List</h3>
+                        </a>
+
+                    </li>
+                    <li class="transparent">
+
+                        <a href="#">
+                            <img src="./media/img/13.png">
+                            <h3>Rock Music</h3>
+                        </a>
+
+                    </li>
+
+                    <li class="transparent">
+                        <a href="#">
+                            <img src="./media/img/14.png">
+                            <h3>Pop Music</h3>
+                        </a>
+
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <div id="audio-player">
+
+                <div class=" player-controls">
+                    <div id="track-info">
+                        <span id="track-name">No track selected</span>
+                    </div>
+                    <div class="play-btns">
+                        <button id="prev-button"><i class="fa-solid fa-angles-left"></i>Prev</button>
+                        <button id="play-button"><i class="fa-solid fa-circle-play"></i></button>
+                        <button id="next-button">Next <i class="fa-solid fa-angles-right"></i></button>
+                    </div>
+                    <div id="progress-bar">
+                        <div id="progress-filled"></div>
+                    </div>
+              </div>
+            </div>
+
+
+
+                <div id="track-list">
+
+
+                    <div class="a-track">
+                        <button class="track" data-src="./media/audio/20.mp3" data-name="Ax Alisa Alisa"
+                            data-img="./media/img/98.jpeg"><i class="fa-solid fa-play"></i></button>
+
+
+                        <div class="t-img" style="background-image: url('./media/img/98.jpeg')"></div>
+                        <audio id="audio-element"></audio>
+                        <div class="t-name">Ax Alisa Alisa</div>
+
+
+                    </div>
+
+
+
+                    <div class="a-track">
+                        <button class="track" data-src="./media/audio/90.mp3" data-name="Verev"
+                            data-img="./media/img/101.jpeg"><i class="fa-solid fa-play"></i></button>
+
+
+                        <div class="t-img" style="background-image: url('./media/img/101.jpeg')"></div>
+                        <audio id="audio-element"></audio>
+                        <div class="t-name">Verev</div>
+
+
+                    </div>
+
+
+
+                    <div class="a-track">
+                        <button class="track" data-src="./media/audio/78.mp3" data-name="Ed qo Shatutyamb"
+                            data-img="./media/img/100.jpeg"><i class="fa-solid fa-play"></i></button>
+
+
+                        <div class="t-img" style="background-image: url('./media/img/100.jpeg')"></div>
+                        <audio id="audio-element"></audio>
+                        <div class="t-name">Ed qo shatutyamb</div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <script src="main.js"></script>
+
+</body>
+
+</html>

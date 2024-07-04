@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="menu">
+
+            <h1>My playList</h1>
+
+            <nav class="transparent">
+
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+                        <a href="favourite.html">Favourites</a>
+                    <li>
+                        <i class="fa-solid fa-video" style="color: #ffffff;"></i>
+                        <a href="video.html">Videos</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-music" style="color: #ffffff;"></i>
+                        <a href="music.html">Music</a>
+                    </li>
+
+
+                </ul>
+                <div class="inp">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    <input type="text" placeholder="search..." />
+                </div>
+            </nav>
+            <div class="playlist">
+                <ul>
+                    <li class="transparent">
+                        <a href="#">
+                            <img src="./media/img/12.png" height="100px" width="150px">
+                            <h3>My Favourite List</h3>
+                        </a>
+
+                    </li>
+                    <li class="transparent">
+
+                        <a href="#">
+                            <img src="./media/img/13.png">
+                            <h3>Rock Music</h3>
+                        </a>
+
+                    </li>
+
+                    <li class="transparent">
+                        <a href="#">
+                            <img src="./media/img/14.png">
+                            <h3>Pop Music</h3>
+                        </a>
+
+                    </li>
+
+
+                </ul>
+            </div>
+
+
+        </div>
+       
+            <div class="main ">
+
+
+                <div id="video-player">
+                
+                <div class="video-sec">
+                <div id="track-info">
+                <span id="track-name">Видео не выбрано</span>
+                </div>
+                
+                <video id="video-element" width="100%" ></video>
+                
+                <div class="v-controls">
+                <div class="v-btns">
+                <button id="prev-button"><i class="fas fa-backward"></i></button>
+                <button id="play-button"><i class="fa-solid fa-circle-play"></i></button>
+                <button id="next-button"><i class="fas fa-forward"></i></button>
+                </div>
+                <div id="progress-bar">
+                <div id="progress-filled"></div>
+                </div>
+                </div>
+                
+                </div>
+                
+                
+                
+                </div>
+                
+                <div id="video-list">
+                <div class="a-track">
+                <button class="track" data-src="./media/video/20.mp4" data-name="Ax Alisa Alisa" data-img="./media/img/98.jpeg">
+                <i class="fa-solid fa-play"></i>
+                </button>
+                
+                
+                <div class="t-img" style="background-image: url('./media/img/98.jpeg')"></div>
+                
+                <div class="t-name">Ax Alisa Alisa</div>
+                
+                </div>
+
+                <div id="video-list">
+                    <div class="a-track">
+                    <button class="track" data-src="./media/video/21.mp4" data-name="Khamozem" data-img="./media/img/99.jpeg">
+                    <i class="fa-solid fa-play"></i>
+                    </button>
+                    
+                    
+                    <div class="t-img" style="background-image: url('./media/img/99.jpeg')"></div>
+                    
+                    <div class="t-name">Khamozem</div>
+                    
+                    </div>
+
+                    <div id="video-list">
+                        <div class="a-track">
+                        <button class="track" data-src="./media/video/78.mp4" data-name="Ed qo shatutyamb" data-img="./media/img/100.jpeg">
+                        <i class="fa-solid fa-play"></i>
+                        </button>
+
+                        
+                        
+                        <div class="t-img" style="background-image: url('./media/img/100.jpeg')"></div>
+                        
+                        <div class="t-name">Ed qo shatutyamb</div>
+                        
+                        </div>
+
+                        <div id="video-list">
+                            <div class="a-track">
+                            <button class="track" data-src="./media/video/90.mp4" data-name="verev" data-img="./media/img/101.jpeg">
+                            <i class="fa-solid fa-play"></i>
+                            </button>
+    
+                            
+                            
+                            <div class="t-img" style="background-image: url('./media/img/101.jpeg')"></div>
+                            
+                            <div class="t-name">Verev</div>
+                            
+                            </div>
+
+                            <div id="video-list">
+                                <div class="a-track">
+                                <button class="track" data-src="./media/video/120.mp4" data-name="zguysh xoxir Hayast" data-img="./media/img/102.jpeg">
+                                <i class="fa-solid fa-play"></i>
+                                </button>
+        
+                                
+                                
+                                <div class="t-img" style="background-image: url('./media/img/102.jpeg')"></div>
+                                
+                                <div class="t-name">Zguysh xosir Hayastanum</div>
+                                
+                                </div>
+                
+                
+                </div>
+                </div>
+</div>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
