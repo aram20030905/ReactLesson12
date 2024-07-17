@@ -1,0 +1,57 @@
+.menu{
+    width:50%;
+    margin:auto;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,108,1) 43%, rgba(0,212,255,1) 100%);
+padding: 5px;
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.menu a{
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+.menu button{
+    border: none;
+    background: none;
+    color:red;
+    font-size:25px;
+    letter-spacing: 5px;
+}
+
+.basket{
+    top:-1000px;
+    transition: all 1s;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,26,1) 3%, rgba(0,212,255,1) 100%);
+
+}
+.open{
+    top:60px;
+    transition: all 1s;
+    overflow-y: scroll;
+   
+}
+
+.shopItem{
+
+    display: flex;
+
+}
+
+.shopItem img{
+    height: 80px;
+    width: 80px;
+}
+
+.shopItem p{
+    font-size: 25px;
+}
