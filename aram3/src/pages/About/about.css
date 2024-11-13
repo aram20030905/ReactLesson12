@@ -1,0 +1,19 @@
+/*body{
+	background: black;
+}*/
+.art1{
+	padding:25px;
+	display:flex;
+}
+.art2 img{
+	height:500px;
+	width:500px;
+}
+
+.art3{
+	
+	width:700px;
+}
+.art3 h2{
+	font-size:45px;
+}
